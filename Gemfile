@@ -1,19 +1,19 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.5'
+ruby '2.6.6'
 
-gem 'rails', '~> 6.0.2'
+gem 'rails', '~> 6.0.3'
 gem 'pg', '>= 0.18.0'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 gem 'sass-rails', '>= 6'
-gem 'webpacker', '~> 4.0'
+gem 'webpacker', '~> 5.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'jquery-rails'
 gem 'uglifier'
 gem 'coffee-rails', '~> 5.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 2.1', group: :doc
 
 gem 'decent_exposure'
 
